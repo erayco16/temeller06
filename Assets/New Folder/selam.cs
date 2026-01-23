@@ -3,7 +3,10 @@ using UnityEngine;
 public class selam : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] public int not;
+    [SerializeField] public int sayý1;
+    [SerializeField] public int sayý2;
+    
+
     void Start()
     {
         //print("bombaaaaaa");
@@ -83,7 +86,7 @@ public class selam : MonoBehaviour
 
         //if else
 
-        if (not<44)
+        /*if (not<44)
         {
             print("1");
         }
@@ -103,6 +106,82 @@ public class selam : MonoBehaviour
         {
             print("5");
         }
+        */
+
+        /*int ortalama=(not+not2+performans)/ 3;
+        if (ortalama > 50)
+        {
+            print("Basarili");
+        }
+        else
+        {
+            print("Basarisiz");
+        }
+        */
+
+        /*int ucgen = (aci1 + aci2 + aci3);
+        if (ucgen==180)
+        {
+            print("Bu bir üçgendir");
+        }
+        else
+        {
+            print("Bu bir ücgen deðildir");
+        }
+        */
+
+        /*int aradakitutar = kilo - 20;
+        if (kilo<=20)
+        {
+            print("ücrete gerek yok");
+        }
+        */
+
+        /*switch (secim)
+        {
+            case "+":
+            sonuc= sayi1 + sayi2;
+                print("sonuc" + sonuc);
+                break;
+            case "-":
+                sonuc = sayi1 - sayi2;
+                print("sonuc" + sonuc);
+            case "/":
+                sonuc = sayi1 / sayi2;
+                print("sonuc" + sonuc);
+                break;
+            case "*":
+                sonuc = sayi1 * sayi2;
+                print("sonuc" + sonuc);
+                break;
+            default:
+
+        }
+        */
+        /*int sonuc = 0;
+        for (int sayý = sayi1; sayý1 <= sayý2; sayý1++)
+        {
+            sonuc = sonuc + sayý1;
+        }
+        print(sonuc);
+        */
+
+        for (int i=0;i<51;i++)
+        {
+            if (i % 5 == 0)
+                print("bombaaaaaa");
+            else
+                print(i);
+            
+        }
+
+
+
+
+
+
+
+
 
 
 
