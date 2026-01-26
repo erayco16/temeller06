@@ -4,7 +4,6 @@ public class selam : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] public int sayý1;
-    [SerializeField] public int sayý2;
     
 
     void Start()
@@ -166,7 +165,7 @@ public class selam : MonoBehaviour
         print(sonuc);
         */
 
-        for (int i=0;i<51;i++)
+        /*for (int i=0;i<51;i++)
         {
             if (i % 5 == 0)
                 print("bombaaaaaa");
@@ -174,9 +173,72 @@ public class selam : MonoBehaviour
                 print(i);
             
         }
+        */
+        /*int result = 1;
+        int i = 1;
+        while (i <= sayý1) ;
+        {
+            result *= i;
+            i++;
+        }
+        print("sayýnýn faktöriyeli " + result);
+        */
 
+        /*string[] isimler = new string[11];
 
+        isimler[0] = "osman gülec";
+        isimler[1] = "selim";
+        isimler[2] = "eray";
+        isimler[3] = "ömer";
+        isimler[4] = "burak";
+        isimler[5] = "buse";
+        isimler[6] = "görkem";
+        isimler[7] = "umut";
+        isimler[8] = "erkan";
+        isimler[9] = "þimþek";
+        isimler[10] = "osman arý";
 
+        for (int i=0;1<isimler.Length;i++)
+        {
+            print(isimler[i]);
+        }
+        */
+
+        /*List<string> isimler = new List<string>();
+        isimler.Add("osman güleç");
+        isimler.Add("selim");
+        isimler.Add("eray");
+        isimler.Add("ömer");
+        isimler.Add("burak");
+        isimler.Add("buse");
+        isimler.Add("görkem");
+        isimler.Add("umut");
+        isimler.Add("erkan");
+        isimler.Add("þimþek");
+        isimler.Add("abdurrahman");
+        isimler.Add("osman arý");
+        foreach (string isim in isimler)
+        {
+            print(isim);
+        }
+        isimler.Insert(10, "Ali");
+        foreach(string isim in isimler)
+        {
+            Debug.Log(isim);
+        }
+        if (isimler.Contains("Ali")) ;
+        {
+
+        }
+        */
+        /*for (int i = 0;i<10;i++)
+        {
+            Ilkfonksiyon();
+        }
+        */
+
+        int toplam = stp(8, 9);
+        print("sayýlarýn toplamý " + toplam);
 
 
 
@@ -191,6 +253,23 @@ public class selam : MonoBehaviour
 
 
     }
+
+
+    int stp(int a,int b)
+    {
+        return a + b;
+    }
+
+    /*void sayýlarýntoplami(int a,int b)
+    {
+        print("sayýlarýntoplamý ": (a + b));
+    }
+
+    void Ilkfonksiyon()
+    {
+        print("merhabalar ben Ilkfonksiyondan geliyorum");
+    }
+    */
 
     // Update is called once per frame
     void Update()

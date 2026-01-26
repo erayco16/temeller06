@@ -321,8 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a3e686dc82c5d41965ae230c6e84c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::selam
-  "say\u01311": 1
-  "say\u01312": 10
+  "say\u01311": 5
 --- !u!1 &2082128873
 GameObject:
   m_ObjectHideFlags: 0
